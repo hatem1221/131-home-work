@@ -1,0 +1,192 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    direction: rtl;
+}
+
+
+header {
+    background-color:rgb(1, 173, 147);;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+nav {
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(46, 90, 165);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+nav ul li a:hover {
+    color: #007c73;
+}
+
+
+#about img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1.2em;
+    color: #2a2525;
+    text-align: center;
+    
+}
+
+
+#courses {
+    text-align: center; 
+    padding: 20px;
+}
+
+#courses ul {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    list-style-type: none; 
+    padding: 0;
+}
+
+#courses ul li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px; 
+    text-align: center; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+#courses ul li:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+#courses ul li h3 {
+    font-size: 1.5em;
+    color: rgb(1, 173, 147); 
+    margin-bottom: 10px;
+}
+
+#courses ul li p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+
+form {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form label {
+    font-size: 1.1em;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: rgb(1, 173, 147);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #457aa0;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+    width: 100%;
+    bottom: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: rgb(1, 173, 147);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer ul li a:hover {
+    color: rgb(1, 173, 147);
+}
